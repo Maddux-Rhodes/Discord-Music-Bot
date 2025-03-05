@@ -9,7 +9,7 @@ from yt_dlp import YoutubeDL
 from dotenv import load_dotenv
 
 load_dotenv()
-
+# Add your discord developer token, spotify client id and spotify client secret as TOKEN, SPOTIFY_CLIENT_ID, and SPOTIFY_CLIENT_SECRET respectively. 
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secret=SPOTIFY_CLIENT_SECRET))
 
